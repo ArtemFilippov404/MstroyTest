@@ -1,0 +1,38 @@
+.controls {
+    margin-bottom: 10px;
+  }
+  
+  .ag-theme-alpine {
+    height: 500px;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .add-button,
+  .remove-button {
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 0;
+  }
+  
+  .add-button {
+    background-color: blue;
+  }
+  
+  .remove-button {
+    background-color: red;
+  }
+  
+  .add-button:hover,
+  .remove-button:hover {
+    opacity: 0.8;
+  }
